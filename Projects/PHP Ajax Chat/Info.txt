@@ -1,0 +1,19 @@
+Design Pattern: Front controller
+
+Languages: PHP, JS, MYSQL, HTML5, CSS, AJAX
+
+Summary of project: Chat system with accounts.
+
+Purpose of project: To learn AJAX.
+
+To do: Fix system allowing multiple logins and css.
+
+Status of project: Just need to improve CSS and make chat pretty.
+Probably won't continue. If I did it would be to try longblob and uploading mysql images.
+Its fruitless to continue with an ajax chat system.
+
+
+
+*Note: Not sure which but I think I have to learn comet and/or web sockets to create a chat system.
+When I inspect browser for popular browser systems they don't use ajax with set interval.
+If they did it would a server overload.

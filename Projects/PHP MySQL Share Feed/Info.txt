@@ -1,0 +1,17 @@
+Design Pattern: MVC
+
+Languages: PHP, MYSQL, HTML5, CSS
+
+Summary of project: A share system where people can post things.
+
+Purpose of project: Learn MVC and practice languages used.
+
+To do: Fix system allowing multiple logins and adding a delete function.
+
+Status of project: CSS wise I think its ok for a mini project.
+Should probably take sometime to solve multiple logins since I have never tried it yet.
+
+
+To Check:
+- Is it better to have seperate views without main? It's pretty annoying to switch pages to fix stuff.
+- What is the best/correct way to add more css for seperate views?

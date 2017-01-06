@@ -1,0 +1,126 @@
+/* Form */
+
+#contact-form {
+    margin: auto;
+    width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px 'Work Sans', sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+
+}
+#contact-form h1 {
+    font-size: 25px;
+    padding: 0px 0px 0px 40px;
+    display: block;
+    margin: -10px -15px 30px -10px;
+    color: #888;
+}
+#contact-form h1>span {
+    display: block;
+    font-size: 11px;
+}
+#contact-form h2 {
+    font-size: 15px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;
+    color: #888;
+    font-family: 'Oswald', sans-serif;
+}
+#contact-form h2>span {
+    display: block;
+    font-size: 11px;
+}
+#contact-form label {
+  display: block;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  color: #888;
+}
+
+#contact-form input[type="text"], input[type="password"], #contact-form input[type="email"], #contact-form textarea {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 100%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+#contact-form input[type="text"]:focus, input[type="password"]:focus, #contact-form input[type="email"]:focus, #contact-form textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#contact-form textarea{
+    padding: 5px 3px 3px 5px;
+}
+#contact-form textarea{
+    height:100px;
+}
+#contact-form .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    display: block;
+    margin: 1em 0;
+}
+#contact-form .button:hover {
+    background: #CF7A7A
+}
+
+/* PARSLEY */
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+  margin: 0.5em 0 0.1em 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1em;
+  line-height: 0.9em;
+  opacity: 0;
+
+  transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+  opacity: 1;
+}
