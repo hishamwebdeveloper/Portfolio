@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+html, body {
+	padding:0;
+	margin:0;
+}
+
+header {
+	position: fixed;
+	height:100%;
+	width:14em;
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+
+header h2 {
+	margin:0.75em 0 0 0.1em.2em;
+	padding:0 0.5em 0 1.22em;
+	text-transform:uppercase;
+	font-family:'Open Sans';
+	font-size:0.75em;
+	font-weight:700;
+}
+
+nav ul {
+	list-style:none;
+	padding:0 0.9em 0 1em;
+	margin:0;
+}
+
+nav li {
+	line-height:2.2em;
+	cursor:pointer;
+}
+
+nav li:hover {
+	border: solid #a9a9a9 1px;
+	border-radius:2px;
+}
+
+nav li:hover a span {
+	color:#0093d9;
+	text-decoration: underline;
+}
+
+nav li a{
+	text-decoration:none;
+	font-family:'Open Sans';
+	color:#8da0aa;
+	font-weight:500;
+	font-size:0.85em;
+}
+
+/* Sub navigation */
+
+
+.subnav li a::before {
+	content:"\f111";
+	font-size: 0.5em;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	color:#8da0aa;
+	line-height:4em;
+	float:left;
+	margin-top:0.65em;
+	margin-right:1em;
+	margin-left: 0.5em;
+}
+
+/* End of sub navigation */
+
+#content {
+	margin-left:14em;
+	min-height:100vh;
+	overflow:auto;
+	background:#fafcfe;
+	position:relative;
+	padding-left:2em;
+}
+
+#content h1, h2 {
+	font-family:Raleway;
+	text-transform:uppercase;
+	font-size:1.4em;
+}
+
+#content h2 {
+	font-size:1.2em;
+	margin-top:0;
+	margin-bottom:1em;
+	padding:0;
+}
+
+i {
+	margin-right:0.5em;
+	color:#0093d9;
+	opacity:0.60;
+	padding-left:0.8em;
+}
+
+.right {
+	position:absolute;
+	right:0;
+	padding-top:0.8em;
+	margin-right:1.5em;
+	color:#a9a9a9;
+}
+
+.ifix {
+	margin-right:0.65em;
+}
+
+.content-box {
+	border: solid #a9a9a9 1px;
+	padding:1em 1em 2em 1em;
+	margin-right:2em;
+	background:#fff;
+	border-radius:2px;
+}

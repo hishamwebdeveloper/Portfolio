@@ -1,0 +1,181 @@
+.datasheet.connect, .connect {
+	margin:0;
+}
+
+.datasheet td.col-10 {
+	width:20%;
+}
+
+.datasheet td.col-25 {
+	width:25%;
+}
+
+.datasheet td.col-50 {
+	width: 51.95%;
+}
+
+
+
+.datasheet {
+	border-spacing: 0;
+	border-collapse: seperate;
+	border-style: solid;
+	border-color:#dfe8f1;
+	border-width:1px 0 1px 1px;
+	line-height: 1.5em;
+	text-align: left;
+	font-family: 'Open Sans';
+	font-size: 0.9em;
+	padding: 0;
+	background: #fff;
+	width:100%;
+	margin:0;
+}
+
+.datasheet .num {
+	border-width:1px 1px 0 0;
+	min-width:1em;
+	max-width:1em;
+	width:1em;
+	text-align:center;
+}
+
+.database .empty {
+	border-width: 1px 0 0 0;
+	min-width:1em;
+	max-width:1em;
+	width:1em;
+}
+
+.datasheet th {
+	position: relative;
+	/*padding: 0.2em 0.4em;*/
+	padding:5px;
+	color:black;
+	font-weight:bold;
+	background:#fafcfe;
+	border-width:0 1px 1px 0;
+	border-style: solid;
+	border-color:#dfe8f1;
+	font-size:0.9em;
+}
+
+.datasheet td {
+	/*padding: 10px 15px;*/
+	padding:5px;
+	position: relative;
+	transition: all 300ms;
+	background: #f9f9f9;
+	color:#8da0aa;
+	border-width:1px 1px 0 0;
+	border-style: solid;
+	border-color:#dfe8f1;
+}
+
+
+.datasheet td input {
+	vertical-align: middle;
+	border: none;
+	background: inherit;
+	width:90%;
+}
+
+.datasheet td span {
+	color:black;
+	font-size:0.9em;
+}
+
+
+
+/* Buttons */
+.datasheet input[type="search"]
+{
+	float:right;
+	margin-top: 1em;
+}
+
+.datasheet button {
+	color: #FFFFFF;
+	background: #2b90d9;
+	cursor: pointer;
+	border-radius: 4px;
+	border: none;
+	margin: 1em 0;
+	padding: 0.5em;
+}
+
+.datasheet button:hover {
+	transition: all 60ms ease;
+	opacity: .85;
+	}
+  
+.datasheet button:active {
+	transition: all 60ms ease;
+	opacity: .75;
+}
+  
+ .datasheet button:focus {
+	 outline: 1px dotted #959595;
+	 outline-offset: -4px;
+}
+
+.datasheet .action {
+	width: 8.8em;
+}
+
+.datasheet .action button {
+	margin: 0;
+	display: inline;
+}
+
+.datasheet .action .done-edit, .datasheet .action .done-insert{
+	background: lime;
+}
+
+.datasheet .action .cancel-edit,  .datasheet .action .cancel-insert{
+	background: red;
+}
+
+.datasheet .action-style {
+	color:white;
+	opacity:1;
+	padding:0.25em 1em;
+	margin:0;
+}
+
+
+/* Table show & search */
+.search {
+	width:100%;
+	box-sizing:border-box;
+	display:inline-block;
+	line-height:2.5em;
+	margin:0;
+	padding:0;
+}
+
+.left-search  {
+	float:left;
+}
+
+.right-search {
+	float:right;
+}
+
+.right-search span {
+	margin-left:0.5em;
+	color:#0093d9;
+	cursor:pointer;
+}
+
+.filter {
+	margin-top:0.5em;
+}
+
+.confirmation {
+	display:none;
+}
+
+input[type="text"]:disabled, select:disabled {
+	color:black;
+}
