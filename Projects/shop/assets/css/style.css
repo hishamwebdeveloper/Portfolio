@@ -1,0 +1,200 @@
+/*Fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: rgb(245, 246, 247);
+  min-height: 10vh;
+  font-family: Montserrat;
+}
+
+nav {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#left-menu {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#right-menu {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1em;
+  font-size: 1.2em;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#jumbotron {
+  min-height: 90vh;
+  background: url("../img/ipad.png") no-repeat right; 
+  background-size: contain;
+  background-color: rgb(245, 246, 247);
+  position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+#jumbotron h1 {
+  margin: 0;
+}
+
+#container {
+  min-height: 90vh;
+  background-color: rgb(245, 246, 247);
+}
+
+#container h1 {
+  margin-top: 0;
+  
+}
+
+#caption {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  border: 1px solid rgb(76, 174, 76);
+  background-color: rgb(68, 157, 68);
+  border-radius: 4px;
+  line-height: 20px;
+  padding:  1em 1.5em;
+  cursor: pointer;
+  margin-top: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+/* Products */
+#product-list {
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+}
+
+.image-container {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 1em 5.35% 1em 5.35%;
+}
+
+.thumbnail img {
+  min-width: 175px;
+  min-height: 150px;
+  max-width: 175px;
+  max-height: 150px;
+  border-radius: 8px;
+}
+
+.image-container h3 {
+  margin: 0 0 0 0.4em;
+  text-align: left;
+}
+
+.image-container p {
+  margin: 0.4em 0 0 0.4em;
+  text-align: left;
+}
+
+/* Cart List */
+.cart-container {
+  display: inline-block;
+  width: 25%;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cart-container h4 {
+  border-bottom: 1px solid black;
+  padding: 0.5em 0em 0.5em 1em;
+  margin: 0;
+  background-color: #d9dde0;
+}
+
+.cart {
+  position: relative;
+  background-color: #e7e9ec;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.cart li {
+  position: relative;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 0.5em 0;
+  margin: 0;
+  width: 100%;
+}
+
+.cart p {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+.cart .close-button {
+  position: absolute;
+  top: 22.5%;
+  right: 10px;
+  cursor: pointer;
+}
+
+.cart button {
+  padding: 0.5em;
+  background-color: lime;
+  color: white;
+  margin: 0.5em;
+}
+
+/* Cart Span */
+.qty {
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+  color: green;
+  width: 32.5%;
+  margin-left: 0.5em;
+}
+
+.price {
+  position: absolute;
+  top: 25%;
+  right: 40px;
+}

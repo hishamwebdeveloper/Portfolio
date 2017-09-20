@@ -1,0 +1,37 @@
+#form {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 250px;
+    background: #D2E9FF;
+    padding: 2em;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#form label {
+    display: block;
+    color: #5E5E5E;
+    margin: 0.5em 0;
+}
+
+#form input[type="text"], #form input[type="password"], #form textarea, #form select {
+    color: #888;
+    width: 100%;
+}
+
+#form .button{
+  margin-top: 1em;
+  display: block;
+  padding: 0.25em 0.5em;
+  background: #66C1E4;
+  border: none;
+  color: #FFF;
+  box-shadow: 1px 1px 1px #4C6E91;
+  -webkit-box-shadow: 1px 1px 1px #4C6E91;
+  -moz-box-shadow: 1px 1px 1px #4C6E91;
+  text-shadow: 1px 1px 1px #5079A3;
+   
+}
+#form .button:hover{
+    background: #3EB1DD;
+}
